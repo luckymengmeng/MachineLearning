@@ -192,7 +192,7 @@ if __name__=="__main__":
     import sys
     sys.path.append(r"F:\CSU\Github\MachineLearning\lib")  
     import dataload as dload
-    train_x, train_y = dload.loadData(trainfile)
+    train_x, train_y = dload.loadData(trainfile) 
     test_x, test_y = dload.loadData(testfile)
     
     clf = DecitionTree(criteria="C4.5")
